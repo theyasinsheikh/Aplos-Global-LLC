@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="240" viewBox="0 0 480 240" fill="none">
+  <defs>
+    <linearGradient id="mission-bg" x1="0" y1="0" x2="480" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8F8F5"/>
+      <stop offset="1" stop-color="#F4FAFE"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="240" rx="22" fill="url(#mission-bg)"/>
+  <circle cx="365" cy="120" r="78" fill="#00A8A8" fill-opacity=".1"/>
+  <circle cx="365" cy="120" r="55" stroke="#00A8A8" stroke-opacity=".5" stroke-width="2"/>
+  <path d="M310 120h110M365 65v110" stroke="#00A8A8" stroke-opacity=".26" stroke-width="2"/>
+  <path d="m365 82 12 34-12 42-12-42 12-34Z" fill="#F5A623"/>
+  <circle cx="365" cy="120" r="7" fill="#0057B8"/>
+  <rect x="61" y="75" width="128" height="91" rx="17" fill="#fff"/>
+  <path d="M89 106h71m-71 22h71m-71 22h43" stroke="#A5B8C8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="225" cy="120" r="6" fill="#00A8A8"/>
+  <circle cx="260" cy="120" r="6" fill="#00A8A8"/>
+  <path d="M189 120h28m49 0h21" stroke="#00A8A8" stroke-width="3" stroke-linecap="round" stroke-dasharray="3 8"/>
+  <path d="M59 194h362" stroke="#C7DCE2" stroke-width="3" stroke-linecap="round"/>
+</svg>

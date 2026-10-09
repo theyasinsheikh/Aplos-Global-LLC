@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="95" y1="46" x2="647" y2="526" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#3ABDB8"/>
+      <stop offset="1" stop-color="#064477"/>
+    </linearGradient>
+    <linearGradient id="globe" x1="248" y1="121" x2="535" y2="421" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A9F1E8"/>
+      <stop offset="1" stop-color="#078A9A"/>
+    </linearGradient>
+    <linearGradient id="card" x1="190" y1="377" x2="581" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#E6F5F3"/>
+    </linearGradient>
+    <filter id="shadow" x="119" y="53" width="527" height="501" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+  <circle cx="380" cy="277" r="214" fill="url(#sky)" opacity=".34"/>
+  <circle cx="380" cy="277" r="196" stroke="#D5FFFF" stroke-opacity=".55" stroke-width="2"/>
+  <circle cx="380" cy="277" r="156" stroke="#D5FFFF" stroke-opacity=".36" stroke-width="2"/>
+  <ellipse cx="380" cy="277" rx="76" ry="196" stroke="#D5FFFF" stroke-opacity=".4" stroke-width="2"/>
+  <path d="M187 277h386M218 190h324M218 364h324" stroke="#D5FFFF" stroke-opacity=".3" stroke-width="2"/>
+  <path d="M254 183c27-24 60-35 90-36l22 19-17 27-32 8-7 27-28 18-36-18-14-27 22-18Zm169-18 42 13 31 30-8 27-32 13-14 31-29-7-18-29-30-10 8-37 28-31 22 0Zm-86 115 38-11 34 17 3 40 28 22-11 32-34 16-18 48-33 23-30-27-2-46-21-29 11-37-19-26 24-22 30 0Z" fill="#E8FFFA" fill-opacity=".74"/>
+  <path d="M200 299c35-106 114-172 213-162 46 4 86 25 120 60" stroke="#FFD083" stroke-width="4" stroke-linecap="round" stroke-dasharray="2 13"/>
+  <circle cx="200" cy="299" r="9" fill="#FFD083"/>
+  <circle cx="533" cy="197" r="9" fill="#FFD083"/>
+  <circle cx="380" cy="277" r="196" stroke="#fff" stroke-opacity=".8" stroke-width="2"/>
+  <g filter="url(#shadow)" opacity=".28">
+    <ellipse cx="382" cy="464" rx="191" ry="38" fill="#001B37"/>
+  </g>
+  <rect x="183" y="380" width="394" height="112" rx="23" fill="url(#card)"/>
+  <rect x="204" y="401" width="70" height="70" rx="19" fill="#E3F7F5"/>
+  <path d="M224 440v-15a15 15 0 0 1 30 0v15m-35 0h40v17h-40z" stroke="#007E8B" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="239" cy="419" r="4" fill="#007E8B"/>
+  <path d="M298 415h169M298 438h221M298 460h130" stroke="#A9BAC8" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="548" cy="436" r="17" fill="#F5A623"/>
+  <path d="m541 436 5 5 10-11" stroke="#073B68" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
